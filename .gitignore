@@ -1,0 +1,8 @@
+# folders
+build/
+.vscode/
+
+# files
+ping_pong
+*.exe
+*.pdb
