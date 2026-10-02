@@ -16,9 +16,8 @@ namespace Nexus
     bool vsync = true;
   };
   
-  class NX_API Window
+  struct NX_API Window
   {
-  public:
     Window(const WindowInfo &wndInfo = {});
     ~Window();
 

@@ -2,9 +2,8 @@
 
 #include <nexus/engine.hpp>
 
-class Game : public Nexus::Application
+struct Game : public Nexus::Application
 {
-public:
   Game(const Nexus::ApplicationInfo& appInfo = {});
   ~Game();
 

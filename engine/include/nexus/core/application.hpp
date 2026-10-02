@@ -15,9 +15,8 @@ namespace Nexus
     unsigned int ups = 60;
   };
   
-  class NX_API Application
+  struct NX_API Application
   {
-  public:
     Application(const ApplicationInfo &appInfo = {});
     virtual ~Application();
 
